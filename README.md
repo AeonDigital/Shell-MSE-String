@@ -1,4 +1,4 @@
-Bash-MSE-String
+Shell-MSE-String
 ================
 
 > [Aeon Digital](http://www.aeondigital.com.br)
