@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/usr/bin/env bash
 # myShellEnv v 1.0 [aeondigital.com.br]
 
 
@@ -16,7 +16,7 @@
 #
 # @example
 #   result=$(mse_str_trimR "   texto aqui   ")
-#   echo $result # "   texto aqui"
+#   printf $result # "   texto aqui"
 mse_str_trimR() {
-  echo "$1" | sed 's/\s*$//g'
+  printf "$1" | sed 's/\s*$//g'
 }

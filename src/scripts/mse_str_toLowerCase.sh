@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/usr/bin/env bash
 # myShellEnv v 1.0 [aeondigital.com.br]
 
 
@@ -17,5 +17,5 @@
 # @example
 #   result=$(mse_str_toLowerCase "TEXT")
 mse_str_toLowerCase() {
-  echo "$1" | awk '{print tolower($0)}'
+  printf "$1" | awk '{print tolower($0)}'
 }

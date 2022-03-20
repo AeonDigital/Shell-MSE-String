@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/usr/bin/env bash
 # myShellEnv v 1.0 [aeondigital.com.br]
 
 
@@ -17,5 +17,5 @@
 # @example
 #   result=$(mse_str_toUpperCase "text")
 mse_str_toUpperCase() {
-  echo "$1" | awk '{print toupper($0)}'
+  printf "$1" | awk '{print toupper($0)}'
 }

@@ -1,4 +1,4 @@
-#!/bin/bash -eu
+#!/usr/bin/env bash
 # myShellEnv v 1.0 [aeondigital.com.br]
 
 
@@ -20,7 +20,7 @@
 #
 # @example
 #   result=$(mse_str_trimD ":" "  Keep  calm   :   and   ... :   think  ")
-#   echo $result # "Keep  calm:and   ...:think"
+#   printf $result # "Keep  calm:and   ...:think"
 mse_str_trimD() {
   sed 's/\s*'"$1"'\s*/'"$1"'/g' <<< "$2"
 }
