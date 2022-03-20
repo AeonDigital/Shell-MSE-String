@@ -7,6 +7,7 @@
 
 
 
+set -eu
 MSE_TMP_TEST_MODULE_DIRECTORY=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd );
 
 #
