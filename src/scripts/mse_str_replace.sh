@@ -59,5 +59,5 @@ mse_str_replace() {
     fi
   fi
 
-  printf "${mseR}\n"
+  printf "${mseR}"
 }
