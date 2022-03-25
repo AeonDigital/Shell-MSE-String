@@ -32,7 +32,7 @@ mse_str_replace() {
 
 
   if [ $# -lt 3 ]; then
-    mse_mod_errorAlert "${FUNCNAME[0]}" "${lbl_genericError_lostArgument}"
+    mse_mmod_errorAlert "${FUNCNAME[0]}" "${lbl_genericError_lostArgument}"
   else
     mseOLD=$1
     mseNEW=$2
